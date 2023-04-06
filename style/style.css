@@ -96,7 +96,7 @@ h2 {
 /*comienzo estilos footer*/
 
 footer{
-    background-color: rgba(0, 255, 255, 0.493);
+    background-color: rgba(0, 255, 255, 0.343);
     padding: 20px;
     display: flex;
     align-items: center;
@@ -114,7 +114,7 @@ footer div nav ul{
 footer div nav ul li{
     padding: 10px;
     margin: 5px;
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.379);
 }
 
 body{ 
@@ -198,5 +198,11 @@ border-radius: 25px;
 main .contenedorWath .temporadas div {
     text-align: center;
    
-   
+}
+
+footer div nav ul li{
+    margin: 20px;
+    border-radius: 50px;
+    text-align: center;
+
 }
