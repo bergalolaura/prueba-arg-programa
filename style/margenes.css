@@ -1,6 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
+
+@media (max-width: 480px) {
+    body{
+        padding: 10px;
+    }
+
+    /* header */
+    header{
+        flex-direction:column;
+        gap: 10px;
+      
+    }
+    header ul {
+        flex-direction: column;
+    
+    }
+    header ul li{
+        text-align: center;
+    }
+
+    header div img {
+        width: 100px ;
+        border-radius: 20px;
+    }
+
+    .letra{
+        width: 200px;
+    }
+
+    /* main */
+    .contenedorSim{
+        flex-direction: column;
+    
+    }
+
+    .imgsin {
+        display: none;
+    }
+   
+   .tex{
+    margin: 0px auto;
+    font-size: 15px;
+    text-align: center;
+    
+   }
+
+   .letrasim{
+    color:black;
+    margin: 10px;
+   }
+ 
+    .contenedorWath{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .contenedorWath img{
+        width: 150px;
+        height: 150px;
+        margin: 0px;
+        
+    }
+
+    .personaje{
+       padding: 15px;
+    }
+    .temporadas{
+        padding: 10px;
+    } 
+    
+    footer {
+        flex-direction: column;
+    }
+    footer div nav ul {
+        margin: 20px;
+    }
+}   
+    
