@@ -1,5 +1,202 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+header{
+    background-color:rgba(147, 212, 242, 0.406);
+    padding: 20px;
+    display: flex;    
+    /*cambio de eje principal*/
+    /*flex-direction:row;*/
+    /* justify-content: justifica el contenido, es decir, manejo de eje  principal, o sea, el x en un contenedor flex*/
+    justify-content:space-between ;
+    /*alaing: manejo del eje secunadrio, o sea, y en un contenedor flex. */
+    align-items: center;
+    border-radius: 25px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex ;
+}
+
+header nav ul li {
+    
+    background-color: rgba(129, 248, 226, 0.261);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+header div{
+    display: flex;  
+
+}
+
+/* escrir: header div img hace que las caracteristicas que le doy sean para la magen que esta dentro del div y dentro del header*/
+header div img {
+    width: 150px ;
+    border-radius: 20px;
+
+}
+.letra{
+    width: 400px;
+}
+
+/* List-style me sirve para sacar los puntos de la lista*/
+nav, ul {
+    list-style: none;
+/*text-decoration: none me sirve para sacar el subrayado*/
+}
+nav ul li a {
+    text-decoration: none;
+    
+}
+/* dispaly flex solo al heder: para colocar los elementos hijos se van a ubicar uno al lado del otro (en una lista)*/
+ 
+
+nav ul li a {
+    color:black;
+}
+h2 {
+    background-color: rgba(0, 255, 255, 0.48);
+    text-align: center;
+    border-radius: 25px;
+    margin: 20px;
+}
+   
+.contenedorSim{
+    display:flex;
+
+}
+ main section img{
+    width: 250px;
+    margin: 20px;
+    border-radius: 20px;
+ }
+
+ .tex
+ {
+    margin: 50px;
+   
+ }
+
+ .letrasim{
+     color: rgb(240, 240, 240);
+     background-color: rgba(0, 0, 0, 0.404);
+     border-radius: 20px;
+     padding: 30px;
+ }
+
+/*comienzo estilos footer*/
+
+footer{
+    background-color: rgba(0, 255, 255, 0.493);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    }
+
+
+        
+
+footer div nav ul{
+    list-style: none;
+}
+
+footer div nav ul li{
+    padding: 10px;
+    margin: 5px;
+    background-color: blueviolet;
+}
+
+body{ 
+    background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1308/space_planets_stars-Design_HD_wallpaper_1366x768.jpg");
+    background-attachment: fixed;
+    padding: 30px;
+    font-family: 'Arvo', sans-serif;
+    font-size: 17px;
+
+
+}
+.contenedor {
+    padding: 30px;
+    background-color: rgba(95, 158, 160, 0.515);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.personaje{
+    background-color: rgba(240, 173, 241, 0.437);
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+
+}
+
+.personaje:hover{
+    background-color: blueviolet;
+    box-shadow: 0 0 15px 0 white;
+}
+.personaje img {
+    width: 100px;
+    border-radius: 50%;
+}
+.temporadas{
+    padding: 50px; 
+}
+
+.temporadas ul li{
+
+    list-style: none;
+    display: flex ;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+} 
+.temporadas ul li a {
+    color: black;
+    background-color: rgba(127, 255, 212, 0.337);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.temporadas ul {
+padding: 30px;
+background-color: rgba(95, 158, 160, 0.515);
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+border-radius: 25px;
+    
+} 
+
+
+.contenedorWath{
+    display: flex;
+}
+
+.contenedorWath img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+main .contenedorWath .temporadas div {
+    text-align: center;
+   
+   
 }
